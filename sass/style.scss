@@ -1,0 +1,211 @@
+$a: 640px;
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 992px) {
+    #Contact {
+        margin-top: 0;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #8D8D8D;
+        padding-bottom: 5px;
+        margin: auto;
+        margin-bottom: -8px;
+    }
+    .nav-link,
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+    }
+    #jmbo {
+        margin-top: -75px;
+        height: $a !important;
+        & .container {
+            & .display-4 {
+                margin-top: 120px !important;
+            }
+        }
+    }
+    .info-panel {
+        margin-top: -60px !important;
+        & .col-lg {
+            & .logolas,
+            & .mt-2,
+            & .text2 {
+                transform: scale(0.7);
+            }
+        }
+    }
+    #jmbo2 {
+        & .container {
+            & .btn {
+                text-align: center !important;
+                margin-left: 490px !important;
+            }
+        }
+    }
+    #abbbb {
+        padding-left: 20px;
+    }
+    .navbar-expand-lg {
+        z-index: 99999;
+        & .container {
+            & .navbar-collapse {
+                & .navbar-nav {
+                    & .nav-link {
+                        transition: ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    .text2 {
+        margin-left: -60px !important;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    #jmbo {
+        & .container {
+            & .display-4 {
+                margin-top: 0px !important;
+            }
+        }
+    }
+    #jmbo2 {
+        & .container {
+            & .btn {
+                margin-left: 95px !important;
+            }
+        }
+    }
+}
+
+#jmbo {
+    position: relative;
+    background-image: url(../img/slide/1527.jpg) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: $a - 100px;
+    overflow: hidden;
+    text-align: center !important;
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, .7), transparent);
+        position: absolute;
+        top: 0;
+    }
+    & .container {
+        position: relative;
+        z-index: 1;
+        & .text1 {
+            font-family: Calibri, 'Trebuchet MS', sans-serif;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+        }
+        & .display-4 {
+            margin-top: 60px;
+        }
+        & .btn {
+            border-radius: 19px !important;
+            margin: auto !important;
+        }
+    }
+}
+
+#conn1 {
+    & .row {
+        & .info-panel {
+            width: 90%;
+            z-index: 9999;
+            border-radius: 30px !important;
+            box-shadow: -10px 10px 20px rgba(0, 0, 0, .4);
+            background-color: white;
+            margin-top: -170px;
+            & .col-lg {
+                & .logolas,
+                & .mt-2,
+                & .text2 {
+                    transform: scale(0.7);
+                }
+                & .text2 {
+                    color: #ACACAC !important;
+                    margin-left: -20px;
+                }
+            }
+        }
+    }
+}
+
+#jmbo2 {
+    background-image: url(../img/slide/1533.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    height: 450px !important;
+    & .container {
+        & h3,
+        & h1,
+        & .btn {
+            transition: 1s;
+            opacity: 0;
+            transform: translate(0, -40px);
+        }
+        & h3.muncul,
+        & h1.muncul,
+        & .btn.muncul {
+            transform: translate(0, 0) !important;
+            opacity: 1;
+        }
+        & .btn {
+            text-align: center !important;
+            margin-left: 136px;
+        }
+    }
+}
+
+.text3 {
+    color: white !important;
+    margin-left: 4px;
+}
+
+.text4 {
+    margin-left: 16px !important;
+}
+
+.text5 {
+    margin-left: 42px !important;
+}
+
+.text6 {
+    margin-left: 63px !important;
+}
+
+#abbbb {
+    padding-left: 16px;
+}
+
+.ceritanyaiklan {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 9999999999999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .4);
+    & .col-lg-6 {
+        & h3 {
+            cursor: pointer;
+        }
+        height: 200px;
+        margin-top: -210px;
+        transition: 0.8s;
+    }
+}
