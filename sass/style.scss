@@ -77,9 +77,10 @@ html {
     }
     #jmbo2 {
         & .container {
-            & .btn {
-                margin-left: 95px !important;
-            }
+            // & .btn {
+            //     width: 100px;
+            //     margin: auto !important;
+            // }
         }
     }
 }
@@ -149,6 +150,7 @@ html {
     background-position: center center;
     height: 450px !important;
     & .container {
+        text-align: center !important;
         & h3,
         & h1,
         & .btn {
@@ -164,7 +166,7 @@ html {
         }
         & .btn {
             text-align: center !important;
-            margin-left: 136px;
+            margin: auto !important;
         }
     }
 }

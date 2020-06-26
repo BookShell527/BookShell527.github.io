@@ -58,9 +58,6 @@ html {
   #jmbo .container .display-4 {
     margin-top: 0px !important;
   }
-  #jmbo2 .container .btn {
-    margin-left: 95px !important;
-  }
 }
 
 #jmbo {
@@ -133,6 +130,10 @@ html {
   height: 450px !important;
 }
 
+#jmbo2 .container {
+  text-align: center !important;
+}
+
 #jmbo2 .container h3,
 #jmbo2 .container h1,
 #jmbo2 .container .btn {
@@ -153,7 +154,7 @@ html {
 
 #jmbo2 .container .btn {
   text-align: center !important;
-  margin-left: 136px;
+  margin: auto !important;
 }
 
 .text3 {
